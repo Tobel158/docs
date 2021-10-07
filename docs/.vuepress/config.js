@@ -170,13 +170,9 @@ module.exports = {
         {
           title: "Concepts",
           children: [
-            "/Concepts/Terra",
-            "/Concepts/Luna",
-            "/Concepts/Stablecoin",
-            "/Concepts/Validators",
-            "/Concepts/Governance",
+            "/Concepts/terra-protocol",
             "/Concepts/Smart-contracts",
-
+            "/Concepts/glossary",
           ],
           collapsable: false,
         },

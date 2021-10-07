@@ -3,7 +3,7 @@
 Welcome to the official documentation for Terra, a decentralized financial infrastructure powering the innovation of money. Terra provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.
 
 <div class="cards twoColumn">
-  <a href="/Concepts/Terra.html" class="card">
+  <a href="/Concepts/terra-protocol.html#terra_and_luna" class="card">
     <img src="/img/icon_terra.svg"/>
     <div class="title">
       What is Terra?
@@ -12,7 +12,7 @@ Welcome to the official documentation for Terra, a decentralized financial infra
       If this is your first time learning about Terra, start here.
     </div>
   </a>
-  <a href="/Concepts/Luna.html" class="card">
+  <a href="/Concepts/terra-protocol.html#terra_and_luna" class="card">
     <img src="/img/icon_luna.svg"/>
     <div class="title">
       What is Luna?
@@ -21,13 +21,13 @@ Welcome to the official documentation for Terra, a decentralized financial infra
       Learn about Luna, the native staking asset that powers the Terra ecosystem.
     </div>
   </a>
-  <a href="/Concepts/Stablecoin.html" class="card">
+  <a href="/Concepts/terra-protocol.html#expansion-and-contraction" class="card">
     <img src="/img/icon_stable.svg"/>
     <div class="title">
       Stability Mechanisms
     </div>
     <div class="text">
-      Learn about how Terra achieves price-stability while ensuring steady increase in validator incentives.
+      Learn how Terra achieves price-stability.
     </div>
   </a>
   <a href="/How-to/Run-a-full-Terra-node/Hardware-requirements.html" class="card">
