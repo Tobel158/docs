@@ -90,7 +90,7 @@ To start receiving rewards, delegators bond their Luna to a validator. The bondi
 Luna exists in the following three phrases:
 
 - **Unbonded**: Luna that can be freely traded and is not staked to a validator.
-- **Bonded**: Luna that is staked to a validator. Luna staked to a validator can't be traded freely.* Bonded Luna accrues staking rewards. Although Luna bonded to validators in Terra Station can’t be traded freely, bLuna is a token that represents bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/).
+- **Bonded**: Luna that is staked to a validator. Luna staked to a validator can't be traded freely. Bonded Luna accrues staking rewards. Although Luna bonded to validators in Terra Station can’t be traded freely, bLuna is a token that represents bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/).
 - **Unbonding**: Luna that is in the process of becoming unbonded from a validator and does not accrue rewards. This process takes 21 days to complete.
 
 ### Bonding, staking, and delegating
