@@ -20,7 +20,7 @@ Stablecoins are only valuable to users if they maintain their price peg. The Ter
 
 ### Expansion and contraction
 
-Imagine the total supplies of Terra and Luna are represented by two pools. To maintain the price of Terra, the Luna supply pool adds to or subtracts from Terra’s supply. Users burn Luna to mint Terra and burn Terra to mint Luna, all incentivized by the protocol's algorithmic market module.
+Imagine the whole Terra economy as two pools: one for Terra and one for Luna. To maintain the price of Terra, the Luna supply pool adds to or subtracts from Terra’s supply. Users burn Luna to mint Terra and burn Terra to mint Luna, all incentivized by the protocol's algorithmic market module.
 
 - **Expansion**: When the price of Terra is high relative to its peg, supply is too small and demand is too high. The protocol incentivizes users to burn Luna and mint Terra. The new supply of Terra makes its pool larger, balancing supply with demand. Users mint more Terra from burned Luna until Terra reaches its target price. The Luna pool gets smaller in this process, increasing the price of Luna.
 
@@ -35,7 +35,7 @@ The price stability of Terra is achieved by the protocol's algorithmic [market m
 The Terra protocol's market module enables users to always trade 1 USD worth of Luna for 1 UST, and vice versa, incentivizing users to maintain the price of Terra. This same principle is true for all Terra stablecoin denominations.
 
 - **Example**  
-  If 1 UST is trading at 1.01 USD, users can use the market swap feature of Terra Sstation to trade 1 USD of Luna for 1 UST. The market burns 1 USD of Luna and mints 1 UST. Users can then sell their 1 UST for 1.01 USD, profiting .01 USD through arbitrage, adding to the UST pool. This arbitrage continues until UST price falls back to match the price of USD, maintaining its peg.
+  If 1 UST is trading at 1.01 USD, users can use the market swap feature of Terra Station to trade 1 USD of Luna for 1 UST. The market burns 1 USD of Luna and mints 1 UST. Users can then sell their 1 UST for 1.01 USD, profiting .01 USD through arbitrage, adding to the UST pool. This arbitrage continues until UST price falls back to match the price of USD, maintaining Terra's peg.
 
 The same arbitrage mechanism works in reverse for contraction.
 
@@ -90,7 +90,7 @@ To start receiving rewards, delegators bond their Luna to a validator. The bondi
 Luna exists in the following three phrases:
 
 - **Unbonded**: Luna that can be freely traded and is not staked to a validator.
-- **Bonded**: Luna that is staked to a validator. Luna staked to a validator can't be traded freely. Bonded Luna accrues staking rewards. Although Luna bonded to validators in Terra Station can’t be traded freely, bLuna is a token that represents bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/).
+- **Bonded**: Luna that is staked to a validator. Bonded Luna accrues staking rewards. Although Luna bonded to validators in Terra Station can’t be traded freely, bLuna is a token that represents bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/).
 - **Unbonding**: Luna that is in the process of becoming unbonded from a validator and does not accrue rewards. This process takes 21 days to complete.
 
 ### Bonding, staking, and delegating
