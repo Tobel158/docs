@@ -28,7 +28,7 @@ Groups of information stored on a blockchain. Each block contains transactions t
 
 ## bLuna
 
-A token representing bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/).
+A token representing bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/). Bonded Luna takes 21 days to become unbonded.
 
 ## Bonded validator
 
@@ -36,11 +36,11 @@ A validator in the active set participating in consensus. Bonded validators earn
 
 ## Bonding
 
-When a user delegates or bonds Luna to a validator. Validators never have ownership of a delegator's Luna, even when bonded. Delegating, bonding, and staking generally refer to the same process.
+When a user delegates or bonds Luna to a validator to recieve staking rewards. Validators never have ownership of a delegator's Luna, even when bonded. Delegating, bonding, and staking generally refer to the same process.
 
-## Burning
+## Burn
 
-The destruction of coins. The Terra protocol burns Luna to mint Terra stablecoins and vice versa.
+The destruction of coins. The Terra protocol burns Luna to mint Terra stablecoins and vice versa. Burned coins are destroyed.
 
 ## CHAI
 
@@ -52,7 +52,7 @@ The current version of the Terra mainnet.
 
 ## Commission
 
-The percentage of staking rewards a validator kept by a validator before distributing to delegators. Validators set their own commission rates.
+The percentage of staking rewards a validator will keep before distributing the rest of the rewards to delegators. Commission can help pay for a validator's computing costs. Validators set their own commission rates.
 
 ## Community pool
 
@@ -80,11 +80,12 @@ Decentralized finance. A movement away from traditional finance and toward syste
 
 ## Delegate
 
-When users or delegators add their Luna to a validator's stake in exchange for rewards. The delegated Luna is bonded to the validator. Validators never have ownership of a delegator's Luna.
+When users or delegators add their Luna to a validator's stake in exchange for rewards. The delegated Luna is bonded to the validator. Validators never have ownership of a delegator's Luna. Delegating, bonding, and staking generally refer to the same process.
+
 
 ## Delegator
 
-A user who delegates or bonds Luna to a validator to earn rewards.
+A user who delegates, bonds, or stakes Luna to a validator to earn rewards.
 
 ## Fees
 
@@ -110,7 +111,7 @@ The native staking token of the Terra protocol. Luna supply expands and contract
 
 ## Governance
 
-The process that allows users and validators to make changes to the Terra protocol. Users and validators vote on proposals submitted by community members. Voting power is proportional to the total bonded Luna of a user or validator.
+The process that allows users and validators to make changes to the Terra protocol. Users and validators vote on proposals submitted by community members. One staked Luna is equal to one vote.
 
 ## Governance proposal
 
@@ -120,17 +121,17 @@ A written submission for a change or addition to the Terra protocol. Topics of p
 
 Validators that are not in the active set. These validators do not participate in consensus and do not earn rewards.
 
-## Jail
+## Jailed
 
 Validators who misbehave are jailed or excluded from the validator set for a period amount of time.
 
-## Minting
+## Mint
 
-The creation of new coins. The Terra protocol burns Luna to mint Terra stablecoins and vice versa.
+The creation of new coins. Minting is the opposite of burning. The Terra protocol burns Luna to mint Terra stablecoins and vice versa.
 
 ## Module
 
-A section of the Terra core that represents a particular function of the Terra protocol. Visit the [Terra core module specifications](/Reference/Terra-core/Overview.md) for more info
+A section of the Terra core that represents a particular function of the Terra protocol. Visit the [Terra core module specifications](/Reference/Terra-core/Overview.md) for more information.
 
 ## Oracle
 
@@ -140,13 +141,13 @@ For more information, visit the [Oracle](/Reference/Terra-core/Module-specificat
 
 ## Peg
 
-A currency rate that directly tracks an asset's price. The peg for UST is the price of USD, and the ideal peg ration is 1:1.
+A currency rate that directly tracks an asset's price. The peg for UST is the price of USD, and the ideal peg ratio is 1:1.
 
 ## Pools
 
-Groups of tokens. Liquidity pools represent total amounts of available tokens in the market. Supply pools represent the total supply of tokens in the market.
+Groups of tokens. Supply pools represent the total supply of tokens in the market.
 
-## PoS
+## Proof of Stake
 
 Proof of Stake. A style of blockchain where  validators are chosen to propose blocks according to the amount of coins they hold.
 
