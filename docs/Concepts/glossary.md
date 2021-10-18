@@ -36,7 +36,7 @@ A validator in the active set participating in consensus. Bonded validators earn
 
 ## Bonding
 
-When a user delegates or bonds Luna to a validator to recieve staking rewards. Validators never have ownership of a delegator's Luna, even when bonded. Delegating, bonding, and staking generally refer to the same process.
+When a user delegates or bonds Luna to a validator to receive staking rewards. Validators never have ownership of a delegator's Luna, even when bonded. Delegating, bonding, and staking generally refer to the same process.
 
 ## Burn
 
@@ -52,7 +52,7 @@ The current version of the Terra mainnet.
 
 ## Commission
 
-The percentage of staking rewards a validator will keep before distributing the rest of the rewards to delegators. Commission can help pay for a validator's computing costs. Validators set their own commission rates.
+The percentage of staking rewards a validator will keep before distributing the rest of the rewards to delegators. Commission is a validator’s income. Validators set their own commission rates.
 
 ## Community pool
 
@@ -60,7 +60,7 @@ A special fund designated for funding community projects. Any community member c
 
 ## Consensus
 
-A system used by validators or miners to agree that each block of transactions in a blockchain is correct. The Terra blockchain uses the Tendermint consensus. Validators earn rewards for participating in consensus.
+A system used by validators or miners to agree that each block of transactions in a blockchain is correct. The Terra blockchain uses the Tendermint consensus. Validators earn rewards for participating in consensus. Visit the [Tendermint official documentation site](https://docs.tendermint.com/) for more information.
 
 ## Cosmos-SDK
 
@@ -68,7 +68,7 @@ The open-source framework the Terra blockchain is built on. For more information
 
 ## dApp
 
-An application built on a decentralized platform.
+An application built on a decentralized platform. Protocol’s built on Terra are dApps.
 
 ## DDoS
 
@@ -80,7 +80,7 @@ Decentralized finance. A movement away from traditional finance and toward syste
 
 ## Delegate
 
-When users or delegators add their Luna to a validator's stake in exchange for rewards. The delegated Luna is bonded to the validator. Validators never have ownership of a delegator's Luna. Delegating, bonding, and staking generally refer to the same process.
+When users or delegators add their Luna to a validator's stake in exchange for rewards. Delegated Luna is bonded to a validator. Validators never have ownership of a delegator's Luna. Delegating, bonding, and staking generally refer to the same process.
 
 
 ## Delegator
@@ -89,17 +89,13 @@ A user who delegates, bonds, or stakes Luna to a validator to earn rewards.
 
 ## Fees
 
-- Transaction fees
+- **Gas fees**: Compute fees added on to each transaction to avoid spamming. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- Swap fees
-
-- Gas
-
-- Spread
+- **Stability fees**: Fees added on to each transaction to provide stability in the market. The fee for swapping Terra stablecoin denominations is called a Tobin tax. Exchanges between Terra and Luna are subject to a spread fee.
 
 ## Fiat currency
 
-Currency issued by a government that is not backed by an underlying asset. USD is the fiat currency of the USA.
+Currency issued by a government that is not backed by an underlying asset. USD is the fiat currency of the United States.
 
 ## Full node
 
@@ -141,19 +137,19 @@ For more information, visit the [Oracle](/Reference/Terra-core/Module-specificat
 
 ## Peg
 
-A currency rate that directly tracks an asset's price. The peg for UST is the price of USD, and the ideal peg ratio is 1:1.
+A currency rate that directly tracks an asset's price. The peg for UST is the price of USD. The ideal peg ratio is 1:1.
 
 ## Pools
 
-Groups of tokens. Supply pools represent the total supply of tokens in the market.
+Groups of tokens. Supply pools represent the total supply of tokens in a market.
 
 ## Proof of Stake
 
-Proof of Stake. A style of blockchain where  validators are chosen to propose blocks according to the amount of coins they hold.
+Proof of Stake. A style of blockchain where validators are chosen to propose blocks according to the number of coins they hold.
 
 ## Redelegate
 
-When a delegator wants to transfer their bonded luna to a different validator. Redelegating Luna is instant and does not require a 21 day unbonding period.
+When a delegator wants to transfer their bonded luna to a different validator. Redelegating Luna is instant and does not require a 21-day unbonding period.
 
 ## Reward weight
 
@@ -189,7 +185,7 @@ The amount of Luna bonded to a validator.
 
 ## Staking
 
-When a user or delegator delegates and bonds Luna to an active validator in order to receive rewards. Bonded Luna adds to the validator's stake. Validators provide their stakes as collateral to participate in the consensus process. Validators with larger stakes are chosen to participate more often. Validators receive staking rewards for their participation. A validator's stake can be slashed if the validator misbehaves. Validators never have ownership of a delegator's Luna, even when staking.
+When a user or delegator delegates and bonds Luna to an active validator in order to receive rewards. Bonded Luna adds to a validator's stake. Validators provide their stakes as collateral to participate in the consensus process. Validators with larger stakes are chosen to participate more often. Validators receive staking rewards for their participation. A validator's stake can be slashed if the validator misbehaves. Validators never have ownership of a delegator's Luna, even when staking.
 
 ## Tendermint consensus
 
@@ -202,8 +198,6 @@ The official source code for the Terra protocol.
 ## Terra stablecoins
 
 Cryptocurrencies created by the Terra protocol to track the price of fiat currencies. Terra stablecoins are algorithmic stablecoins collateralized by Luna. Terra stablecoins are minted by burning Luna and are freely transacted, bought, or sold just like fiat currency.
-
-**This definition needs some work.
 
 ## Terra mainnet
 
@@ -227,13 +221,11 @@ A version of the mainnet just for testing. The testnet does not use real coins. 
 
 ## The Terra ecosystem
 
-Anything built on or pertaining to the Terra protocol.
+A quickly expanding network of decentralized applications built on the Terra protocol.
 
 ## The Terra protocol
 
-The largest decentralized stablecoin protocol.
-
-**This definition needs more direction from higher ups.
+The leading decentralized and open-source public blockchain protocol for algorithmic stablecoins. Using a combination of open market arbitrage incentives and decentralized oracle voting, the Terra protocol creates stablecoins that consistently track the price of any fiat currency.
 
 ## Tobin tax
 
@@ -245,7 +237,7 @@ The total amount of Luna bonded to a delegator, including self-bonded Luna.
 
 ## Unbonded validator
 
-A validator that is not in the active set and does not participate in consensus or recieve rewards. Unbonded validators may be jailed.
+A validator that is not in the active set and does not participate in consensus or receive rewards. Some unbonded validators may be jailed.
 
 ## Unbonding validator
 
@@ -265,7 +257,7 @@ Luna that is transitioning from bonded to unbonded. Luna that is unbonding canno
 
 ## Undelegate
 
-When a delegator no longer wishes to have their Luna bonded to a validator. This process takes 21 days.No rewards accrue during this period. This action cannot be stopped once executed.
+When a delegator no longer wishes to have their Luna bonded to a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
 
 ## Uptime
 
@@ -273,7 +265,7 @@ The amount of time a validator has been active in a given timeframe. Validators 
 
 ## Validator
 
-A Terra blockchain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and recieve rewards. The top 130 validators with the highest total stake can participate in consensus.
+A Terra blockchain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and receive rewards. The top 130 validators with the highest total stake can participate in consensus.
 
 ## Weight
 
